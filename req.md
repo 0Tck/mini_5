@@ -10,7 +10,9 @@
     2.1 home page to login to website
     2.2 login home page that display atteandance and cgpa, which can be expanded to check full metrics
     2.3 a portal to library (connects via a button) 
-    2.4 online communication platform, to communicate (to post questions related to acadamecis)
+    2.4 online communication platform, to communicate (to post questions related to academics)
+    2.5 updation of local events
+
 
 ##Software req
 

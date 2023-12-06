@@ -20,12 +20,14 @@ include("db_con.php");
 
             <form action="check.php" method="POST">
               <div class="inputBox">
-                <input type="username" name="username" required onkeyup="this.setAttribute('value', this.value);" value="">
-                <label>Username</label>
+                <label for="username">Username</label>
+                <input type="username" id="username" required onkeyup="this.setAttribute('value', this.value);" value="">
+                
               </div>
               <div class="inputBox">
-                <input type="password" name="password" required value="" onkeyup="this.setAttribute('value', this.value)">
-                <label>Password</label>
+                <label for="password">Password</label>
+                <input type="password" id="password" required value="" onkeyup="this.setAttribute('value', this.value)">
+                
               </div>
               <input type="submit" name="SUBMIT" value="Sign In"><br><br>
               <a href="clg.php"><button type="button" name="Not a student?">Not a student?</button></a>
